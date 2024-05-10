@@ -1,4 +1,4 @@
-# `upnpinfo`
+# upnpinfo
 
 `upnpinfo` is a commandline tool for retrieving UPnP device information from the local network.
 It's a simple CLI wrapper around [upnpclient](https://github.com/flyte/upnpclient).
@@ -24,7 +24,7 @@ $ pip install .
 By default, `upnpclient` will perform UPnP discovery on the local network and display a summary
 table showing all discovered devices.
 
-![Discovery](media/upnpinfo_discovery.png)
+![Discovery](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_discovery.png)
 
 ### Display detailed information on a single device
 
@@ -32,19 +32,19 @@ Use the `--device` flag to view detailed information on a single device, includi
 services and actions. The provided device can be a UPnP friendly name, a unique UDN, or a UPnP
 location URL.
 
-![Device](media/upnpinfo_device.png)
+![Device](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_device.png)
 
 ### JSON output
 
 Output can be optionally generated in JSON format.
 
-![JSON output](media/upnpinfo_json.png)
+![JSON output](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_json.png)
 
 ### Help information
 
 The following flags are supported.
 
-![Help](media/upnpinfo_help.png)
+![Help](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_help.png)
 
 ## Ideas
 
