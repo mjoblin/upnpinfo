@@ -7,14 +7,8 @@ It's a simple CLI wrapper around [upnpclient](https://github.com/flyte/upnpclien
 
 `upnpinfo` requires Python 3.8 or higher.
 
-```
-$ pip install upnpinfo
-```
-
-Or clone this repository and run:
-
-```
-$ pip install .
+```sh
+pip install upnpinfo
 ```
 
 ## Features
