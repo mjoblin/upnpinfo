@@ -15,7 +15,7 @@ pip install upnpinfo
 
 ### Discover UPnP devices
 
-By default, `upnpclient` will perform UPnP discovery on the local network and display a summary
+By default, `upnpinfo` will perform UPnP discovery on the local network and display a summary
 table showing all discovered devices.
 
 ![Discovery](https://github.com/mjoblin/upnpinfo/raw/main/media/upnpinfo_discovery.png)
