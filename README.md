@@ -7,7 +7,7 @@ It's a simple CLI wrapper around [upnpclient](https://github.com/flyte/upnpclien
 
 `upnpinfo` requires Python 3.8 or higher.
 
-```sh
+```console
 ❯ pip install upnpinfo
 ```
 
@@ -18,7 +18,7 @@ It's a simple CLI wrapper around [upnpclient](https://github.com/flyte/upnpclien
 By default, `upnpinfo` will perform UPnP discovery on the local network and display a summary
 of all discovered devices.
 
-```sh
+```console
 ❯ upnpinfo
 
  Name       Manufacturer      Description   Model   Type            Address
@@ -35,7 +35,7 @@ Specify an optional `DEVICE` to view detailed information on that device, includ
 services and actions. The provided `DEVICE` can be a UPnP friendly name, a unique UDN, or a UPnP
 location URL.
 
-```sh
+```console
 ❯ upnpinfo creamy
 
      Friendly name: creamy
@@ -89,11 +89,11 @@ location URL.
 
 Output can be optionally generated in JSON format.
 
-```sh
+```console
 ❯ upnpinfo creamy --json
 {
     "friendly_name": "creamy",
-    "udn": "uuid:1d6936ae-1dd2-11b2-a4ca-49a677baa922",
+    "udn": "uuid:6cadb326-8b41-423c-b02b-b4eaaaaf0f8d",
     "device_type": "urn:schemas-upnp-org:device:MediaRenderer:1",
     "manufacturer": "Hegel",
     "manufacturer_url": "http://www.hegel.com",
@@ -161,7 +161,7 @@ Output can be optionally generated in JSON format.
 
 The following flags are supported.
 
-```shell
+```console
 ❯ upnpinfo --help
 Usage: upnpinfo [OPTIONS] [DEVICE]
 
